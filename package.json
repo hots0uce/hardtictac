@@ -2,7 +2,9 @@
   "name": "hardtictac",
   "title": "Ultimate Tic Tac Toe",
   "homepage": "http://github.com/hots0uce/hardtictac",
-  "licenses": ["MIT"],
+  "licenses": [
+    "MIT"
+  ],
   "author": {
     "name": "Joe Giuffrida (hots0uce)"
   },
@@ -14,6 +16,7 @@
     "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-watch": "~0.4.4",
     "grunt-contrib-qunit": "~0.2.2",
-    "grunt-contrib-less": "~0.6.1"
+    "grunt-contrib-less": "~0.6.1",
+    "bower": "~0.9.2"
   }
 }
