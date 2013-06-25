@@ -17,7 +17,7 @@ module.exports = function(grunt) {
         stripBanners: true
       },
       dist: {
-        src: ['js/main.js'],
+        src: ['js/lib/jquery/jquery.min.js','js/main.js'],
         dest: 'dist/<%= pkg.name %>.js'
       }
     },
@@ -50,9 +50,6 @@ module.exports = function(grunt) {
       },
       gruntfile: {
         src: 'Gruntfile.js'
-      },
-      lib_test: {
-        src: ['lib/**/*.js', 'test/**/*.js']
       }
     },
     qunit: {
